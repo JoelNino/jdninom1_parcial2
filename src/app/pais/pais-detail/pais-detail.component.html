@@ -1,0 +1,22 @@
+
+<div class="card">
+  <div class="card-body">
+
+    <div class="row">
+      <div class="col-12">
+        <img
+          class="img-fluid"
+          [src]="paisDetail.flag"
+          alt="{{ paisDetail.name }}"
+          style="border-radius: 8px; max-height: 200px; object-fit: cover;"
+        />
+      </div>
+    </div>
+
+
+    <h5 class="card-title mt-3">{{ paisDetail.name }}</h5>
+
+
+    <p class="card-text mt-2">{{ paisDetail.description }}</p>
+  </div>
+</div>
